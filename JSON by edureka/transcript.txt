@@ -1,0 +1,498 @@
+0:10
+The rise of the web has taken JavaScript places it was never conceived to be.Now
+0:16
+it has become one of the most important languages in today's world. It was
+0:21
+actually built in order to expand the web now along with JavaScript came
+0:26
+different extensions one of them is Json hi everyone this is Sayantini from
+0:32
+Edureka and in today's session we will see what is JSON now before we
+0:37
+begin the session let's have a look at the agenda so first we will discuss what
+0:43
+is JSON and then we will have a look at why do we actually use JSON and then we
+0:49
+will move on and have a look at the different similarities and differences
+0:53
+between JSON and XML and finally we will move on to have a look at the
+0:59
+different syntax rules involved in JSON and then I will talk about some of the
+1:03
+basics and fundamentals involved here and finally I will show you an example
+1:08
+of how you can convert the JSON text to the JavaScript object now before we
+1:14
+begin the session don't forget to subscribe to our Edureka YouTube
+1:18
+channel to stay connected so let's get started now what is JSON now a lot of
+1:25
+people also pronounce it as JSON now according to Douglas who actually
+1:30
+introduced JSON it was pronounced as the name JSON so you can just take any
+1:35
+of it you can either call it JSON or you can call it JSON as well now what is
+1:41
+this actually so JSON basically stands for JavaScript
+1:44
+object notation now it is basically a lightweight format for storing and
+1:50
+transporting data so it is used when data is sent from a server to any
+1:55
+particular web page so what happens here is you can extract your data in the form
+2:02
+of text with the help of JSON so in JavaScript suppose you are writing any
+2:07
+particular code and you are connecting with your web page and there is a
+2:11
+communication taking place between the client and the server but the client
+2:16
+only wants to extract the data in the form of text rather than any other
+2:21
+format or anything included in it it just wants
+2:25
+the plain simple text that is exactly where JSON is used so it is actually
+2:30
+used to get that data in the form of a text so here we just convert all the
+2:35
+objects that we are using in our JavaScript and it is finally converted
+2:39
+into the text also JSON is very simple and easy to understand as it is very
+2:45
+similar to JavaScript so in case you are aware about how you write the JavaScript
+2:50
+code and how the objects are defined it is very simple to understand how you
+2:55
+work with JSON as well so now that you know what is JSON let's move ahead and
+3:00
+see that why do we actually use JSON now the extensible markup language that
+3:06
+is the XML used to be the only choice for open data interchange
+3:10
+however developments in open data sharing have introduced more options for
+3:15
+developers and Java Script is definitely one of the best alternative Europe now
+3:20
+the first thing that comes to mind when you mention JSON to developers is that
+3:25
+it's lightweight compared to other open data interchange options however that's
+3:31
+definitely not the only reason you should use it for your next API
+3:35
+integrations JSON provides a lot more advantages such as it is less verbose
+3:41
+that as JSON has a more compact style than XML and it is often more readable
+3:46
+so basically the lightweight approach of JSON can make significant improvements
+3:51
+in the restful api so working with the complex systems not just that it is also
+3:57
+very fast when it comes to speed and performance so the external software
+4:02
+parsing the process can take a long time now one reason for this problem is also
+4:07
+the Dom manipulation libraries that required more memory to handle large XML
+4:13
+files so JSON uses less data over all that reduces the cost and also increases
+4:19
+the parsing speed also JSON is very readable so what happens is the
+4:25
+structure is very straightforward and readable so you have an easier time
+4:29
+mapping to domain objects no matter what program
+4:33
+language you are working with and finally it has a structured data so what
+4:38
+happens is JSON uses a map data structure rather than the XML tree
+4:43
+structure now in some situations key or value pairs can limit what you can do
+4:49
+but you get a predictable and easy to understand data model so now that you
+4:55
+have seen the different advantages of JSON let's move ahead and see the
+4:59
+comparison between JSON and XML now both of these are used for the same
+5:05
+purposes so a lot of people ask that why do we need JSON if we have XML already
+5:10
+now both of these are used for the open data interchange and these are used to
+5:16
+convert your data into texts and when the communication between the client
+5:20
+server takes place both of these are the top choices but then XML has been there
+5:25
+since a long time now then why did we move to JSON now now we have already
+5:30
+seen different advantages that JSON has now talking about why JSON is better
+5:36
+than XML so XML is much more difficult to pass than JSON so what happens is
+5:43
+JSON is passed into a ready-to-use JavaScript object which makes it way
+5:47
+easier and simpler now for example for any Ajax applications
+5:53
+JSON is anyday faster and easier when compared to XML so suppose you are using
+5:58
+XML you first have to fetch an XML document then use the XML Dom to loop
+6:04
+through the document and then extract values and store in variables but while
+6:10
+you are using JSON all you need to do is just fetch a JSON string and then do the
+6:15
+JSON path for the JSON string and that's all you got to do and that's exactly why
+6:21
+people have started preferring JSON over XML because it makes your work
+6:26
+easier and also it's faster there are many more factors that you can compare
+6:31
+for JSON and XML and you will get to see that JSON is any way better than XML
+6:36
+when it comes to working with the data exchange so now let's move on and have a
+6:41
+look at the different syntax rules when it comes to JSON
+6:44
+now the JSON syntax basically is a subset of the JavaScript syntax and it's
+6:50
+very similar when it comes to writing the code in JSON it's very similar to
+6:54
+JavaScript now there are certain rules that you need to follow so basically the
+6:59
+JSON syntax is derived from JavaScript object notation syntax so you gotta
+7:04
+follow certain rules while writing these syntax or writing any code in JSON
+7:11
+so first let's see how we define an object in JavaScript so first we just
+7:16
+take the curly braces and give the key value inside suppose I have name : John
+7:22
+here but what happens when we do the same in our JSON so there's a slight
+7:27
+difference when it comes to javascript and JSON in this case the keys must be
+7:32
+string as well so in JSON we declare the keys also as strings written within
+7:37
+the double quotes so what happens here is that the name keys is also put inside
+7:43
+double quotes so this is exactly how you define the object in JSON so now while
+7:49
+doing this you need to follow certain rules so the first thing that you should
+7:54
+keep in mind is that data should always be in name or value pairs we will see
+8:00
+that in our next examples that's how we write it in pairs or how the values are
+8:05
+given in pairs next up whenever you are adding one or more data it should always
+8:10
+be separated by commas so here what we do is inside our curly braces so suppose
+8:17
+I want to write named John and also the value as John and if I want to add
+8:22
+another attribute that is age so I'll separate these two with the help of a
+8:27
+comma so basically I am adding the data with the help of commas and I'm
+8:31
+separating these two values with the help of a comma now next up the curly
+8:36
+braces hold objects so here you can see that we have defined our objects inside
+8:42
+the curly braces so whatever you put inside these curly braces are the
+8:47
+objects so you must keep in mind that you should have this opening and closing
+8:51
+curly braces while you are defining your objects because that is where it is
+8:55
+health now as the curly braces hold the objects
+8:58
+there are these square brackets now the square brackets basically holds the
+9:03
+arrays so in case you are adding any array inside your object all you can do
+9:08
+is just add a square bracket and if you have to put the value or any array
+9:13
+inside your object all you need to do is enclose it with square brackets so we
+9:18
+will see how we use these square brackets to hold arrays in our upcoming
+9:22
+examples so these were some of these Center
+9:25
+rules that you must follow while writing a quote or while working on with JSON
+9:29
+now let's move ahead and have a look at some of the fundamentals involved here
+9:34
+now because JSON syntax is derived from JavaScript object notation very little
+9:39
+extra software is needed to work with JSON within javascript so what you can
+9:44
+do is with javascript you can create an object and assign data to it so now
+9:50
+let's create an object in our javascript file and see how we can add properties
+9:55
+and then add strings here so first I have to write the keyword let then I've
+9:59
+added the name as person and equal to inside curly braces I'm adding the
+10:04
+property as name : then I'm adding the name as Mary inside the double quotes
+10:10
+because it's a string and then I need to add more data so I'll separate them
+10:15
+using comma and then I'm adding the age : and the age to be 23 then suppose I'm
+10:21
+adding a city so let me just add the city as Banglore here and then finally
+10:26
+closing the curly braces here so this is how I have defined the properties for my
+10:31
+object so now here the object is the person and for that I've defined name
+10:36
+age and city so let's see how you get the output so I'll just type console dot
+10:41
+log and inside this I'll just type whatever output I want to see or
+10:46
+whichever parameter I want to see so suppose I just want to get the name as
+10:51
+the output so what I'll do is I'll just write person dot name and then save it
+10:56
+and now finally I have the index - dot HTML file that is here I have the HTML
+11:02
+file in which I have linked my JavaScript file so this is just a basic
+11:06
+example where I have a head tag which says welcome to it Eureka
+11:10
+so as soon as I open this page it will give me a welcome message saying that
+11:14
+welcome to add you wake up now once I've saved these two files I'll go back to my
+11:19
+browser and I'll open my HTML file here so once I open the HTML file you can see
+11:25
+that it shows me our welcome message that is welcome to add Eureka now I want
+11:29
+to go to the console from here so I'll just right click and select inspect and
+11:34
+here I will go to the console inside the console you can see that the
+11:39
+name shows as married because for the output I have only given the property as
+11:44
+person dot name so it will just show me the name of my object because that's the
+11:49
+only attribute that I've selected now if I want to see the entire one what I'll
+11:53
+do is I'll just consult person completely now once I save this and go
+11:58
+back and now refresh my webpage so now you can see that you get to see all the
+12:03
+properties here so you get to see name age and city as well now there are also
+12:08
+different other ways through which you can access the attribute or the property
+12:14
+here so suppose I want to get the name I can also put it in these square brackets
+12:18
+that is take it as an array here so what I'll do is person square brackets and
+12:23
+then add inside double quotes name now once I save it and go back to my web
+12:28
+page and refresh this you can see that it still shows me the same output where
+12:33
+I get the name as Mary now not just that we can also modify the name in our
+12:39
+console dot log itself so suppose you don't want the name Mary when you get
+12:44
+the output you want some other name to be printed so what you can do is you can
+12:49
+modify it easily sure now there are different ways to modify it as well so
+12:54
+suppose I want to change the name to something else what I'll do is I'll just
+12:58
+type person dot name equals two and then I will add another string suppose I want
+13:03
+to change the name to John so I'll put it inside the double quotes and then
+13:07
+save it now once I go back to my console and refresh it you can see that the name
+13:13
+will be changed to John from Mary because while doing the console dot log
+13:18
+while getting the output I have changed or modified the name from Mary to John
+13:23
+using this dot notation so I've just written person dot name equals two and I
+13:28
+have given the other name that I wanted to see in the output now moving on the
+13:33
+same way JavaScript objects can be used as JSON JavaScript arrays can also be
+13:38
+used as JSON so now we will see how we can use the arrays as JSON objects so
+13:45
+arrays can be values of an object property now what happens is in JSON
+13:50
+array Val must be of type string number object
+13:53
+array boolean or null now in JavaScript array values can be all of these that a
+13:59
+string number object array boolean or null plus any other valid JavaScript
+14:05
+expression including functions dates and undefined otherwise JSON and JavaScript
+14:11
+arrays are almost similar to each other so now let's see how the errors can be
+14:16
+values of the object property as well so here we have these object properties so
+14:22
+for example inside the property city I want to create an array now arrays are
+14:27
+always put inside square brackets so what we have to do is city colon then
+14:33
+start with my square brackets and after banglore I'll just add more number of
+14:38
+cities here so suppose I write Bangalore then I put another city as Delhi and
+14:43
+then finally I have another city as Kolkata so here I have created an array
+14:49
+of cities inside my object itself so we have created an array here now console
+14:56
+dot log person dot city this will give me the output as the array of this all
+15:02
+the cities that I have given here so here we have an unexpected token so yeah
+15:07
+I have missed a square bracket here so we'll just go back and add the square
+15:12
+bracket you must remember that your arrays need to be inside these square
+15:16
+bracket because that is how you write the arrays inside your object in JSON
+15:20
+so now when I save it and go back to my web browser you can see that it provides
+15:25
+me the array as Bangalore Delhi Kolkata and also it provides me with the number
+15:30
+of values that are present inside this particular array so chose 3 because
+15:35
+there are three values here so in console dot log all you need to do is
+15:39
+just add person dot city and you will get the values of all the areas that
+15:44
+you've created inside that particular object or property itself now not just
+15:49
+that you can also access any particular value from this array suppose in the
+15:54
+array you have index number the index value is always starting from 0 so in
+15:59
+array you have 0 1 2 so here Bangalore value is 0 the index value for Delhi is
+16:05
+and the next value for Kolkata is two so you can also access or get the output
+16:10
+for any particular city name with the help of their index number so for that
+16:16
+all you need to do is when you are giving the consult or clock where you've
+16:19
+written person dot city you can just add the index number for example person dot
+16:24
+city inside square brackets I give the value as one now when I save it and go
+16:29
+back to my web browser you can see that it shows me the output as Delhi because
+16:34
+in the index number one the value is Delhi so there are different other
+16:39
+methods through which you can access the values that are stored inside your array
+16:43
+and also you can get them as your output and not just that you can also access
+16:47
+array values by using the loops inside your array that is you can use default
+16:53
+loop as well so these are some of the basic things that you need to know or
+16:57
+keep in mind while working with JSON so you know that the different data types
+17:01
+that you can use here are string number boolean null undefined etc now you have
+17:07
+seen that how you can declare the array and also the objects and also you have
+17:11
+seen how it is very similar to how you write something in JavaScript so there
+17:16
+are ready minimal differences between the two all you need to do is keep in
+17:21
+mind that the keys are also defined as strings when it comes to JSON now the
+17:25
+bean task of JSON is to basically convert an object into a text so that
+17:30
+whenever there is a communication taking place between the webpage and the server
+17:35
+and there's a client-server communication happening and the client
+17:38
+only wants to get the data in the form of text JSON is used so now we need to
+17:44
+see that how we can actually convert the JSON object into a javascript text so
+17:51
+let's move on and look at an example and see how you can do this now it's a very
+17:56
+simple method where all you need to use is the JSON dot parse now we'll see how
+18:01
+this JSON dot parse works so first we just have to create another object so
+18:06
+suppose i'm using the keyword let and then creating the object as object 1
+18:11
+equals 2 now inside the curly braces I'm adding the attribute as name so my
+18:18
+property here name and as you know that inside JSON
+18:21
+this also must be inside double quotes so I'm writing it as names I'm giving
+18:27
+the name is Mary and I'm giving age let the age be 23 and suppose this another
+18:33
+property that is the ID so let me give the ID number as hundred so now here I
+18:40
+have defined the properties for the object now in order to convert the JSON
+18:46
+object into a JavaScript text all you need to do is use the JSON dot parse so
+18:53
+what we will do here is now before these properties we have to write JSON dot
+18:58
+parse and then we write the console dot log and here we want the output as
+19:05
+object one because that's the name of the object that i have defined here now
+19:10
+also before saving this you must remember that you need to put them
+19:13
+inside brackets as well so before adding the curly braces you have to add another
+19:18
+bracket and also put it inside single quotes so here I have added the bracket
+19:24
+and also put it inside this single quote and then we finally have all the
+19:28
+properties along with their values so now I'll just save this and then we will
+19:33
+go back to our server and see what is the output here
+19:38
+so you can see that the output is how you get it in JavaScript that is you get
+19:42
+the value as text so you can see that I had given the name as a string while
+19:47
+writing the JSON code but here you get it as a key value so I have name as Mary
+19:53
+ages 23 and the ID value as 100 so this is exactly how the string values have
+20:00
+been converted into a text so with the help of JSON dot parse what we have done
+20:06
+is we have taken the entire string value or the object along with their
+20:10
+properties and converted them in the form of a text so this makes it easier
+20:16
+for the client to understand what is actually happening or what the real data
+20:20
+is so in case you just want the data in the text format you can use JSON in
+20:25
+JavaScript and get the data in the form of a text only now with this we have
+20:30
+come to the end of our session today I hope you have understood what is JSON
+20:34
+why we need it and how actually it helps you in getting the data in the form of
+20:39
+text only so don't forget to let us know about your opinion in the comment
+20:44
+section below also you can comment down any queries that you have and we will
+20:48
+try to get back to you as soon as possible
+20:51
+till then thank you and happy learning. I hope you have enjoyed listening to this
+20:56
+video please be kind enough to like it and you can comment any of your doubts
+21:01
+and queries and we will reply them at the earliest do look out for more videos
+21:06
+in our playlist and subscribe to Edureka channel to learn more happy
+21:11
+learning.
