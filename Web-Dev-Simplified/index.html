@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON Example</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            let companies = 
+            `[
+                {
+                    "name": "Big Corporation",
+                    "numberOfEmployees": 10000,
+                    "ceo": "Mary",
+                    "rating": 3.6
+                },
+                {
+                    "name": "Small Startup",
+                    "numberOfEmployees": 3,
+                    "ceo": null,
+                    "rating": 4.3
+                }
+            ]`
+
+        console.log(JSON.parse(companies))
+        </script>
+    </body>
+</html>
+
+<!-- ` is called tick 
+    should be enclosing the JSON string
+    if you pass console.log(companies) different output
+    console.log(JSON.parse(companies)) different output
+    use of [] and {}
+    console.log(JSON.parse(companies)[1].name) etc
+-->
